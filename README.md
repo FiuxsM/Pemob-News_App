@@ -18,7 +18,7 @@ Data dari GNews endpoint `/search`, memakai `dio` dan `FutureBuilder`
 
 ```
 config/env.example.json        template 
-config/env.json                not commited
+config/env.json                rahasia, DIABAIKAN git
 lib/config/                    env.dart (baca URL & key), news_topics.dart
 lib/models/                    article_model, news_response_model
 lib/services/                  news_api_service, api_exception, error_messages
@@ -29,21 +29,12 @@ lib/widgets/                   article_card, news_image, error_view, empty_view,
 lib/routes/                    app_routes, app_pages
 lib/utils/                     app_colors, date_formatter
 test/widget_test.dart          unit test ApiException & ArticleModel
-docs/screenshots/              screenshot skenario error (Anda isi, lihat di bawah)
+docs/screenshots/              screenshot skenario error 
 ```
 
-1. **`docs/screenshots/error-api-key-salah.png`** — isi `GNEWS_API_KEY` dengan 32 karakter `0`, jalankan aplikasi. Layar menampilkan "API key salah atau tidak terdaftar." + tombol Coba Lagi. Ambil screenshot.
-2. **`docs/screenshots/error-tanpa-internet.png`** — kembalikan key yang benar, nyalakan mode pesawat, lalu ketuk **Coba Lagi** atau pilih topik yang belum pernah dimuat. Layar menampilkan "Tidak ada koneksi internet. Periksa jaringan Anda." + Coba Lagi. Ambil screenshot.
+## Screenshot
 
-Bukti tombol berfungsi: matikan mode pesawat, ketuk **Coba Lagi** — berita muncul. Simpan kedua file di `docs/screenshots/`, lalu `git add docs/screenshots && git commit`.
-
-## Mengumpulkan lewat GitHub
-
-Repo git lokal sudah disiapkan (lihat `git log`), tetapi belum diunggah. Jalankan sendiri:
-
-```bash
-# buat repo kosong bernama news_app di github.com (jangan centang README/.gitignore), lalu:
-git remote add origin https://github.com/<username>/news_app.git
-git branch -M main
-git push -u origin main
-```
+![Screenshot 1](/Users/muhammadmuftahillah/Kuliah/Semester%205/Pemograman%20Mobile/Pak%20Rafi'e/news_app/docs/screenshots/error-api-key-salah.png) --> Api Key Salah
+![Screenshot 2](/Users/muhammadmuftahillah/Kuliah/Semester%205/Pemograman%20Mobile/Pak%20Rafi'e/news_app/docs/screenshots/error-tanpa-internet.png) --> Tanpa Internet
+![Screenshot 3](/Users/muhammadmuftahillah/Kuliah/Semester%205/Pemograman%20Mobile/Pak%20Rafi'e/news_app/docs/screenshots/api-key-salah.png) --> Api Key Salah (Setelah di reset)
+![Screenshot 4](/Users/muhammadmuftahillah/Kuliah/Semester%205/Pemograman%20Mobile/Pak%20Rafi'e/news_app/docs/screenshots/tanpa-internet.png) --> Tanpa Internet (Setelah di reset)
