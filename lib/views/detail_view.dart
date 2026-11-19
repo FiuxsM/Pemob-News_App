@@ -18,17 +18,20 @@ class DetailView extends StatelessWidget {
     if (!context.mounted) return;
     await showCupertinoDialog<void>(
       context: context,
-      builder: (dialogContext) => CupertinoAlertDialog(
-        title: const Text('Tautan disalin'),
-        content: const Text('Tempel di browser untuk membaca artikel lengkap.'),
-        actions: [
-          CupertinoDialogAction(
-            isDefaultAction: true,
-            onPressed: () => Navigator.of(dialogContext).pop(),
-            child: const Text('Oke'),
+      builder:
+          (dialogContext) => CupertinoAlertDialog(
+            title: const Text('Tautan disalin'),
+            content: const Text(
+              'Tempel di browser untuk membaca artikel lengkap.',
+            ),
+            actions: [
+              CupertinoDialogAction(
+                isDefaultAction: true,
+                onPressed: () => Navigator.of(dialogContext).pop(),
+                child: const Text('Oke'),
+              ),
+            ],
           ),
-        ],
-      ),
     );
   }
 
@@ -38,13 +41,14 @@ class DetailView extends StatelessWidget {
     final description = article.description;
     final content = article.content;
     final date = DateFormatter.formatLong(article.publishedAt);
-    final showContent = content != null &&
-        content.isNotEmpty &&
-        content != description;
+    final showContent =
+        content != null && content.isNotEmpty && content != description;
 
     return CupertinoPageScaffold(
       backgroundColor: AppColors.background(context),
-      navigationBar: const CupertinoNavigationBar(middle: Text('Detail Berita')),
+      navigationBar: const CupertinoNavigationBar(
+        middle: Text('Detail Berita'),
+      ),
       child: SafeArea(
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
@@ -109,7 +113,7 @@ class DetailView extends StatelessWidget {
                     if (showContent) ...[
                       const SizedBox(height: 14),
                       Text(
-                        content!,
+                        content,
                         style: TextStyle(
                           fontSize: 17,
                           height: 1.45,
