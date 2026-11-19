@@ -35,6 +35,6 @@ docs/screenshots/              screenshot skenario error
 ## Screenshot
 
 ![Screenshot 1](docs/screenshots/APIKey_Invalid.png) --> Api Key Salah
-![Screenshot 2](docs/screenshots/error-tanpa-internet.png) --> Tanpa Internet
-![Screenshot 3](docs/screenshots/api-key-salah.png) --> Api Key Salah (Setelah di reset)
-![Screenshot 4](docs/screenshots/tanpa-internet.png) --> Tanpa Internet (Setelah di reset)
+![Screenshot 2](docs/screenshots/ModePesawat.png) --> Tanpa Internet
+![Screenshot 3](docs/screenshots/Halaman_Utama.png) --> Halaman Utama
+![Screenshot 4](docs/screenshots/Detail_Berita.png) --> Detail Berita
