@@ -17,8 +17,8 @@ Data dari GNews endpoint `/search`, memakai `dio` dan `FutureBuilder`
 ## Struktur
 
 ```
-config/env.example.json        template (di-commit)
-config/env.json                rahasia, DIABAIKAN git (Anda buat sendiri)
+config/env.example.json        template 
+config/env.json                not commited
 lib/config/                    env.dart (baca URL & key), news_topics.dart
 lib/models/                    article_model, news_response_model
 lib/services/                  news_api_service, api_exception, error_messages
