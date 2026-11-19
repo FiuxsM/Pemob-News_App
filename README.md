@@ -34,7 +34,7 @@ docs/screenshots/              screenshot skenario error
 
 ## Screenshot
 
-![Screenshot 1](/Users/muhammadmuftahillah/Kuliah/Semester%205/Pemograman%20Mobile/Pak%20Rafi'e/news_app/docs/screenshots/error-api-key-salah.png) --> Api Key Salah
-![Screenshot 2](/Users/muhammadmuftahillah/Kuliah/Semester%205/Pemograman%20Mobile/Pak%20Rafi'e/news_app/docs/screenshots/error-tanpa-internet.png) --> Tanpa Internet
-![Screenshot 3](/Users/muhammadmuftahillah/Kuliah/Semester%205/Pemograman%20Mobile/Pak%20Rafi'e/news_app/docs/screenshots/api-key-salah.png) --> Api Key Salah (Setelah di reset)
-![Screenshot 4](/Users/muhammadmuftahillah/Kuliah/Semester%205/Pemograman%20Mobile/Pak%20Rafi'e/news_app/docs/screenshots/tanpa-internet.png) --> Tanpa Internet (Setelah di reset)
+![Screenshot 1](/docs/screenshots/error-api-key-salah.png) --> Api Key Salah
+![Screenshot 2](/docs/screenshots/error-tanpa-internet.png) --> Tanpa Internet
+![Screenshot 3](/docs/screenshots/api-key-salah.png) --> Api Key Salah (Setelah di reset)
+![Screenshot 4](/docs/screenshots/tanpa-internet.png) --> Tanpa Internet (Setelah di reset)
